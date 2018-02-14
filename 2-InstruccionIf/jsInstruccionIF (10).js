@@ -8,7 +8,7 @@ function Mostrar()
 	//alert(numeroAleatorio);
 	
 
-	if( numeroAleatorio == 9 || numeroAleatorio == 10){
+	/*if( numeroAleatorio == 9 || numeroAleatorio == 10){
 
 		alert(numeroAleatorio+" EXCELENTE");
 	}else{
@@ -22,9 +22,39 @@ function Mostrar()
 			if(numeroAleatorio<4){
 
 			alert(numeroAleatorio+" Vamos la próxima se puede");
+				}
 			}
+		}*/
+
+
+		/*if( numeroAleatorio >8){
+
+		alert(numeroAleatorio+" EXCELENTE");
+		}else
+		{
+			if(numeroAleatorio>=4 ){
+
+			alert(numeroAleatorio+" APROBÓ");
+
+			}else{
+		
+			alert(numeroAleatorio+" Vamos la próxima se puede");
+			
+			}
+		}*/
+
+	if(numeroAleatorio>8){
+
+		alert(numeroAleatorio+" EXCELENTE");
 		}
-	}
+	if(numeroAleatorio>4 && numeroAleatorio<=8){
+
+		alert(numeroAleatorio+" APROBÓ");
+		}
+	if(numeroAleatorio<4){
+
+		alert(numeroAleatorio+" Vamos, la próxima se puede");
+		}
 
 	
 
