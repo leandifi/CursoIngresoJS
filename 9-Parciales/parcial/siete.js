@@ -1,6 +1,6 @@
 function Mostrar()
 {
-	var nota;
+	/*var nota;
 	var cantidadF=0;
 	var cantidadM=0;
 	var iteraciones=5;
@@ -18,7 +18,7 @@ function Mostrar()
 	while(contador<iteraciones){
 
 			contador++;
-			nota=prompt("Ingrese nota.");
+			nota=prompt("Ingrese letra.");
 			nota=parseInt(nota);
 			acumulador=acumulador+nota;
 		while(nota<0 || nota>10){
@@ -64,11 +64,36 @@ function Mostrar()
 	alert("Varones aprobados (6 o màs): "+varonesAprobados);
 	alert("Notas pares: "+notasPares);
 	alert("Notas impares: "+notasImpares);*/
-	document.write("<br>"+"El promedio de las notas es: "+promedio);
+	/*document.write("<br>"+"El promedio de las notas es: "+promedio);
 	document.write("<br>"+"La nota mas baja es: "+notaMinima);
 	document.write("<br>"+"Varones aprobados (6 o mas): "+varonesAprobados);
 	document.write("<br>"+"Notas pares: "+notasPares);
-	document.write("<br>"+"Notas impares: "+notasImpares);
+	document.write("<br>"+"Notas impares: "+notasImpares);*/
+
+		var numero;
+		var respuesta;
+		var letra;
+		var acumulador=0;
+		var contadorNumVoc=0;
+
+	while(respuesta!="no"){
+		letra=prompt("Ingrese letra:");
+		if(!isNaN(letra)==true){
+			letra=prompt("Ingrese una letra:");
+		}
+		numero=prompt("Ingrese numero:");
+		numero=parseInt(numero)
+		if(numero<-200 || numero>200 || isNaN(numero)){
+			numero=prompt("Ingrese numero correcto:")
+			numero=parseInt(numero)
+
+		}
+		if(letra=="a" || letra=="e" || letra=="i" || letra=="o" || letra("u")){
+			contadorNumVoc++;
+			acumulador=acumulador+numero;
+		}
+
+	}
 
 
 }
